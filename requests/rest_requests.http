@@ -1,0 +1,9 @@
+GET http://localhost:8184/news HTTP/1.1
+
+###
+
+GET http://localhost:8184/feeds HTTP/1.1
+
+###
+
+POST http://localhost:8184/news/commands/load HTTP/1.1
